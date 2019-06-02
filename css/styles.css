@@ -1,143 +1,107 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.header-section {
-  display: flex;
-  flex-wrap: wrap;
+.content-container {
+  margin-top: 145px;
+  margin-left: 115px;
+  text-align: center;
 }
+
+.content-description {
+  margin-top: 40px;
+  width: 90%;
+  height: 100%;
+}
+
 
 .logo {
-  display: flex;
-  justify-content: flex-start;
+  margin: 85px 0 0 85px;
   width: 35%;
-  margin: 25px auto auto 30px;
 }
 
-.middle-section {
-  display: flex;
-  flex-wrap: wrap;
-}
+.middle-section {}
 
 .mockup {
-  margin-top: 60px;
   width: 80%;
 }
 
 .mockup-container {
-  display: flex;
-  justify-content: center;
+  margin-top: 150px;
+  text-align: center;
 }
 
-.content-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header-div {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header-1 {
-  margin: 50px 0 0 60px;
-}
-
-.header-2 {
-  margin: 0 0 0 73px;
-}
-
-.content-description {
-  margin: 15px auto 20px 50px;
-  width: 70%;
+.button-container {
+  display: block;
+  margin: 0 auto 0 120px;
   text-align: center;
 }
 
 .register-button {
-  margin-left: 90px;
-  margin-top: 5px;
-  -moz-box-shadow: 2px 2px 3px 0 #545454;
-  -webkit-box-shadow: 2px 2px 3px 0 #545454;
-  box-shadow: 2px 2px 3px 0 #545454;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
-  background: -moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
-  background-color: #ffffff;
-  -moz-border-radius: 28px;
-  -webkit-border-radius: 28px;
-  border-radius: 28px;
-  border: 1px solid #ffffff;
-  display: inline-block;
-  cursor: pointer;
-  color: #6e686e;
-  font-family: 'Open-sans', sans-serif;
-  ;
-  font-size: 14px;
-  padding: 9px 60px;
+  -webkit-border-radius: 100;
+  -moz-border-radius: 100;
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 6px 3px #403f40;
+  font-family: Arial;
+  color: #7a7a7a;
+  font-size: 35px;
+  background: #ffffff;
+  padding: 35px 0 35px 0;
   text-decoration: none;
+  width: 70%;
+  margin: 60px 60px 0 0;
+  display: block;
 }
 
 .register-button:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
-  background: -moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
-  background-color: #ffffff;
+  background: #e8e8e8;
+  text-decoration: none;
 }
 
-.register-button:active {
-  position: relative;
-  top: 1px;
+.title-1 {
+  width: 85%;
 }
 
-.line-break {
-  width: 100%;
-}
-
-.footer {
+.social-media {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 150px;
+  margin-left: 150px;
+
 }
 
-.background-image-container {
-  background-image: url("../images/bg-mobile.svg");
-}
+.social-buttons {
+  margin-right: -40px;
+  width: 80%;
 
-.social-media{
-  margin: 80px 0 20px 120px;
-}
-
-.social-buttons{
-  margin-left: 10px;
-  width: 10%;
 }
 
 body {
   background-color: #674BAF;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 63px;
   color: white;
   /* margin-left: 60px;
   margin-top: 60px; */
 }
 
 p {
-  font-family: 'Open-sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 43px;
+  line-height: 1.5;
   color: white;
 }
 
